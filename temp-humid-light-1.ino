@@ -21,14 +21,14 @@
 
 //WIFI configuration
 
-#define wifi_ssid "BT-9CAF2K"
-#define wifi_password "MyXHp9xc7FGJPe"
+#define wifi_ssid "Yoyr_ssid"
+#define wifi_password "Your_Password"
 #define board_name "temp-humid-light-1"
 
 //MQTT configuration
-#define mqtt_server "192.168.1.102"
-#define mqtt_user "mqtt"
-#define mqtt_password "ThisGarden4L!fe"
+#define mqtt_server "SERVER_IP"
+#define mqtt_user "MQTT_UserName"
+#define mqtt_password "MQTT_Password"
 String mqtt_client_id="ESP-";   //This text is concatenated with ChipId to get unique client_id
 //MQTT Topic configuration
 
